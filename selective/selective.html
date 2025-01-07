@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Secici Uygulamasi</title>
+    <style>
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+        a:link{
+            color: brown;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover{
+            color:darkgoldenrod;
+        }
+        a:active{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">Anasayfa</a></br>
+    <a href="#">Iletisim</a></br>
+    <a href="#">Hakkimizda</a></br>
+    <a href="#">Galeri</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitisik Sibling Uygulamasi</title>
+    <style>
+        p + h3{
+            color:darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <p>Nuray Guliyeva</p>
+    <h3>Ahmet Tezcan</h3>
+    <h3>Yagiz Guneysu</h3>
+    <h3>Taha Unlu</h3>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Secici Uygulamasi</title>
+    <style>
+        div > p{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Web Tasarim Kodlama</p>
+    </div>
+    <div>
+        <p>Web Tasarim Kodlama</p>
+    </div>
+
+    <p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+    </p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Secici Uygulamasi</title>
+    <style>
+        .kirmizirenk{
+            color: red;
+        }
+        .mavirenk{
+            color: blue;
+        }
+        .font{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="kirmizirenk">Tugrul</li>
+        <li class="font">Berat</li>
+        <li>Taha</li>
+        <li class="mavirenk">Yagiz</li>
+        <li class="font">Ahmet</li>
+        <li>Ali</li>
+    </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torun Secici Uygumasi</title>
+    <style>
+        div > p > span{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Web <span>Tasarim</span> Kodlama</p>
+    </div>
+    <div>
+        <p>Web Tasarim <span>Kodlama</span></p>
+    </div>
+
+    <p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+    </p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Secici Uygulamasi</title>
+    <style>
+        span{
+            color: red;
+            font-weight: bold;
+            background-color: yellow;
+        }
+        h4{
+            color:blue
+        }
+        div{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h4>Web Tasarim Uygulamasi Gelistirme Dersi</h4>
+  
+    <ol>
+        <li><span>CSS</span> Egitimi</li>
+        <li><span>HTML</span> Egitimi</li>
+        <li>JavaScript Egitimi</li>
+        <li>PHP Egitimi</li>
+        <li>ASP Egitimi</li>
+        <li>Python Egitimi</li>
+    </ol>
+    <div>Element Secici Sonu</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evrensel Secici Uygulamasi</title>
+    <style>
+        /*h4{
+            color: brown;
+        }
+        ul{
+            color: brown;
+        }
+        p{
+            color: brown;
+        }*/
+
+        *{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h4>Web Tasarim Uygulamasi Gelistirme Dersi</h4>
+    
+    <ul>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>PHP </li>
+        <li>ASP</li>
+        <li>Python </li>
+    </ul>
+    <p>Evrensel Secici Sonu</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id Secici Uygulamasi</title>
+    <style>
+        #birincikita{
+            color: red;
+        }
+        #ikincikita{
+            color: blue;
+        }
+        #ucuncukita{
+            color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <pre id="birincikita">
+        Korkma! Sönmez bu şafaklarda yüzen al sancak,
+        Sönmeden yurdumun üstünde tüten en son ocak.
+        O benim milletimin yıldızıdır, parlayacak;
+        O benimdir, o benim milletimindir ancak.
+    </pre>
+    <pre id="ikincikita">
+        Çatma, kurban olayım, çehreni ey nazlı hilal!
+        Kahraman ırkıma bir gül; ne bu şiddet, bu celal?
+        Sana olmaz dökülen kanlarımız sonra helal…
+        Hakkıdır, Hakk’a tapan milletimin istiklal.
+    </pre>
+    <pre id="ucuncukita">
+        Ben ezelden beridir hür yaşadım, hür yaşarım,
+        Hangi çılgın bana zincir vuracakmış? Şaşarım.
+        Kükremiş sel gibiyim, bendimi çiğner, aşarım,
+        Yırtarım dağları, enginlere sığmam, taşarım.
+    </pre>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple(Coklu) Secici Uygulamasi</title>
+    <style>
+        h4,ol,p{
+            color: red;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h4>Web Tasarim Uygulamasi Gelistirme Dersi</h4>
+    
+    <ol>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>PHP </li>
+        <li>ASP</li>
+        <li>Python </li>
+    </ol>
+    <p>Evrensel Secici Sonu</p>
+</body>
+</html>
